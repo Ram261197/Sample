@@ -1,4 +1,4 @@
-data "aws_region" "current" {}
+data "aws_region" "this" {}
 
 resource "aws_vpc_ipam" "test" {
   operating_regions {
